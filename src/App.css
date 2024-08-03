@@ -2,9 +2,10 @@
   width: 1200px;
   height: auto;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem;
   text-align: center;
   display: flex;
+  gap: 2rem;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: flex-start;
