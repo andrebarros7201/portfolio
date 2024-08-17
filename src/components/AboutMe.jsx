@@ -3,6 +3,7 @@ import styles from "../styles/aboutMe.module.css";
 export default function AboutMe() {
   return (
     <section className={styles["about-me"]}>
+      <h1 className={styles['about-me-title']}>About Me</h1>
       <div className={styles["about-me-left"]}>
         <p>Placeholder for an image</p>
       </div>
