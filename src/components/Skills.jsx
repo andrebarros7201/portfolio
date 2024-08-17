@@ -17,9 +17,7 @@ import webstormLogo from "../assets/webstorm.svg";
 export default function Skills() {
   return (
     <section className={styles["skills"]}>
-      <h1 id="skills" className={styles["skills-title"]}>
-        Skills
-      </h1>
+      <h1 className={styles["skills-title"]}>Skills</h1>
       <div className={styles["skills-list"]}>
         <h3>Core Front-End Development Skills</h3>
         <div className={styles["skills-list-items"]}>
