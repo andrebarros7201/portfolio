@@ -5,7 +5,8 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-flow: row nowrap;
-  background-color: orangered;
+  background-color: var(--dark-blue);
+  color: var(--white);
   border-radius: 150px;
   padding: 0 2rem;
   box-sizing: border-box;
