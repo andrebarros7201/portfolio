@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: start;
+  gap: 1rem;
 }
 
 .skills-title {
@@ -22,19 +23,28 @@
 }
 
 .skills-list {
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  align-items: start;
-
+  align-items: center;
+  border: 2px solid var(--main-blue);
+  background-color: var(--ice);
+  border-radius: 15px;
+  padding: 1rem;
+  gap: 1rem;
   & h3 {
     color: var(--main-blue);
+    margin: 0;
   }
 }
 
 .skills-list-items {
   display: flex;
   flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-around;
   gap: 1.5rem;
 }
 

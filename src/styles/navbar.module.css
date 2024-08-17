@@ -20,5 +20,10 @@ nav {
     justify-content: flex-end;
     gap: 2.5rem;
     list-style: none;
+
+    & a {
+      text-decoration: none;
+      color: var(--white);
+    }
   }
 }

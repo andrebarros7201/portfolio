@@ -8,8 +8,12 @@ export default function Navbar() {
       </div>
       <nav className={styles["header-right"]}>
         <ul>
-          <li>About Me</li>
-          <li>Skills</li>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
           <li>Projects</li>
           <li>Contacts</li>
         </ul>
