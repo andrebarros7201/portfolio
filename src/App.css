@@ -1,5 +1,5 @@
 #root {
-  width: 1200px;
+  width: clamp(400px, 100%, 1200px);
   height: auto;
   margin: 0 auto;
   padding: 1rem;
@@ -9,6 +9,5 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: flex-start;
-  border: 1px solid red;
   color: #0b1215;
 }

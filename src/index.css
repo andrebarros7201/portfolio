@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
+
+  --white: #ffffff;
+  --ice: #f0f5ff;
+  --main-blue: #5167eb;
+  --dark-blue: #2a1d8a;
 }
 
 body {
