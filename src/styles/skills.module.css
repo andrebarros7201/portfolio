@@ -1,0 +1,40 @@
+.skills {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  gap: 1rem;
+}
+
+.skills-title {
+  color: var(--dark-blue);
+  grid-area: title;
+  text-align: left;
+  font-size: 2rem;
+  margin: 0;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &::before {
+    content: "#";
+  }
+}
+
+.skills-list {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: start;
+
+  & h3 {
+    color: var(--main-blue);
+  }
+}
+
+.skills-list-items {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
