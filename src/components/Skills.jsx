@@ -21,32 +21,116 @@ export default function Skills() {
       <div className={styles["skills-list"]}>
         <h3>Core Front-End Development Skills</h3>
         <div className={styles["skills-list-items"]}>
-          <img src={htmlLogo} alt="html logo" />
-          <img src={cssLogo} alt="css logo" />
-          <img src={javascriptLogo} alt="javascript logo" />
-          <img src={reactLogo} alt="react logo" />
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={htmlLogo} alt="HTML logo" />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={cssLogo} alt="CSS logo" />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={javascriptLogo} alt="JavaScript logo" />
+          </a>
+          <a
+            href="https://react.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={reactLogo} alt="React logo" />
+          </a>
         </div>
       </div>
 
       <div className={styles["skills-list"]}>
         <h3>Back-End and Full-Stack Development Skills</h3>
         <div className={styles["skills-list-items"]}>
-          <img src={nodeLogo} alt="node logo" />
-          <img src={expressLogo} alt="express logo" />
-          <img src={postgresqlLogo} alt="postgresql logo" />
-          <img src={prismaLogo} alt="prisma orm logo" />
-          <img src={apiLogo} alt="api logo" />
+          <a
+            href="https://nodejs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={nodeLogo} alt="node logo" />
+          </a>
+          <a
+            href="https://expressjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={expressLogo} alt="express logo" />
+          </a>
+          <a
+            href="https://www.postgresql.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={postgresqlLogo} alt="postgresql logo" />
+          </a>
+          <a
+            href="https://www.prisma.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={prismaLogo} alt="prisma orm logo" />
+          </a>
+          <a
+            href="https://restfulapi.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={apiLogo} alt="API logo" />
+          </a>
         </div>
       </div>
 
       <div className={styles["skills-list"]}>
         <h3>Development Tools</h3>
         <div className={styles["skills-list-items"]}>
-          <img src={gitLogo} alt="git logo" />
-          <img src={jestLogo} alt="jest logo" />
-          <img src={viteLogo} alt="vite logo" />
-          <img src={vscodeLogo} alt="visual studio code logo" />
-          <img src={webstormLogo} alt="webstorm logo" />
+          <a
+            href="https://git-scm.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={gitLogo} alt="git logo" />
+          </a>
+          <a
+            href="https://jestjs.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={jestLogo} alt="jest logo" />
+          </a>
+          <a
+            href="https://vitejs.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={viteLogo} alt="vite logo" />
+          </a>
+          <a
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={vscodeLogo} alt="visual studio code logo" />
+          </a>
+          <a
+            href="https://www.jetbrains.com/webstorm/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={webstormLogo} alt="webstorm logo" />
+          </a>
         </div>
       </div>
     </section>
