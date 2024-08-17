@@ -12,7 +12,10 @@
 
 .about-me-left,
 .about-me-right {
-  background-color: brown;
+  background-color: var(--ice);
+  border: 2px solid var(--main-blue);
+  border-radius: 15px;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
