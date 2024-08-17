@@ -3,7 +3,6 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: start;
-  gap: 1rem;
 }
 
 .skills-title {
