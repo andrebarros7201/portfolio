@@ -35,5 +35,65 @@
 .skills-list-items {
   display: flex;
   flex-flow: row nowrap;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.skills-logo {
+  will-change: filter;
+}
+
+.skills-logo-html:hover {
+  filter: drop-shadow(0 0 2em #e34c26aa);
+}
+
+.skills-logo-css:hover {
+  filter: drop-shadow(0 0 2em #1572b6aa);
+}
+
+.skills-logo-javascript:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.skills-logo-react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.skills-logo-node:hover {
+  filter: drop-shadow(0 0 2em #339933aa);
+}
+
+.skills-logo-express:hover {
+  filter: drop-shadow(0 0 2em #000000aa);
+}
+
+.skills-logo-postgresql:hover {
+  filter: drop-shadow(0 0 2em #336791aa);
+}
+
+.skills-logo-prisma:hover {
+  filter: drop-shadow(0 0 2em #0c344bba);
+}
+
+.skills-logo-api:hover {
+  filter: drop-shadow(0 0 2em #6a5acdba);
+}
+
+.skills-logo-git:hover {
+  filter: drop-shadow(0 0 2em #f05032aa);
+}
+
+.skills-logo-jest:hover {
+  filter: drop-shadow(0 0 2em #c21325aa);
+}
+
+.skills-logo-vite:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.skills-logo-vscode:hover {
+  filter: drop-shadow(0 0 2em #007accaa);
+}
+
+.skills-logo-webstorm:hover {
+  filter: drop-shadow(0 0 2em #00c4ffaa);
 }
