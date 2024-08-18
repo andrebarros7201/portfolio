@@ -21,6 +21,25 @@
   justify-content: center;
 }
 
+.about-me-right {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+
+  & .about-me-right-text {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  & .about-me-right-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
 .about-me-title {
   color: var(--dark-blue);
   grid-area: title;
@@ -44,4 +63,12 @@
 
 .about-me-right {
   grid-area: right;
+}
+
+.skills-logo-github:hover {
+  filter: drop-shadow(0 0 2em #181717aa); /* GitHub logo color */
+}
+
+.skills-logo-linkedin:hover {
+  filter: drop-shadow(0 0 2em #0077b5aa); /* LinkedIn logo color */
 }
