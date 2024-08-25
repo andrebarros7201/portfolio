@@ -17,7 +17,11 @@ export default function Projects() {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div>
-              <a href={project.github}>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={githubLogo} alt="github logo" />
               </a>
               <a href={project.live} target="_blank" rel="noopener noreferrer">
