@@ -13,6 +13,10 @@ import jestLogo from "../assets/jest.svg";
 import viteLogo from "../assets/vite.svg";
 import vscodeLogo from "../assets/vscode.svg";
 import webstormLogo from "../assets/webstorm.svg";
+import typescriptLogo from "../assets/typescript.svg";
+import dockerLogo from "../assets/docker.svg";
+import dotnetLogo from "../assets/dotnet.svg";
+import scssLogo from "../assets/scss.svg";
 
 export default function Skills() {
   return (
@@ -185,6 +189,55 @@ export default function Skills() {
               src={webstormLogo}
               alt="WebStorm logo"
               className={styles["skills-logo-webstorm"]}
+            />
+          </a>
+        </div>
+      </div>
+      <div className={styles["skills-list"]}>
+        <h3>I want to learn</h3>
+        <div className={styles["skills-list-items"]}>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={typescriptLogo}
+              alt="TypeScript logo"
+              className={styles["skills-logo-typescript"]}
+            />
+          </a>
+          <a
+            href="https://dotnet.microsoft.com/en-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={dotnetLogo}
+              alt="DotNet logo"
+              className={styles["skills-logo-dotnet"]}
+            />
+          </a>
+          <a
+            href="https://www.docker.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={dockerLogo}
+              alt="Docker logo"
+              className={styles["skills-logo-docker"]}
+            />
+          </a>
+          <a
+            href="https://sass-lang.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={scssLogo}
+              alt="SCSS logo"
+              className={styles["skills-logo-scss"]}
             />
           </a>
         </div>

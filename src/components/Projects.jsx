@@ -3,6 +3,7 @@ import githubLogo from "../assets/github.svg";
 import styles from "../styles/projects.module.css";
 
 export default function Projects() {
+  //TODO FIX MARGIN TOP SCROLL ON COMPONENTS TITLE
   return (
     <section id="projects" className={styles.projects}>
       <h1 className={styles["projects-title"]}>Main Projects</h1>

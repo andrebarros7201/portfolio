@@ -108,3 +108,19 @@
 .skills-logo-webstorm:hover {
   filter: drop-shadow(0 0 2em #00c4ffaa);
 }
+
+.skills-logo-docker:hover {
+  filter: drop-shadow(0 0 2em #2496edaa); /* Docker blue */
+}
+
+.skills-logo-dotnet:hover {
+  filter: drop-shadow(0 0 2em #512bd4aa); /* .NET purple */
+}
+
+.skills-logo-scss:hover {
+  filter: drop-shadow(0 0 2em #c6538caa); /* SCSS pink */
+}
+
+.skills-logo-typescript:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa); /* TypeScript blue */
+}
