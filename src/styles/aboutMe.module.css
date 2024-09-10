@@ -66,9 +66,18 @@
 }
 
 .skills-logo-github:hover {
-  filter: drop-shadow(0 0 2em #181717aa); /* GitHub logo color */
+  filter: drop-shadow(0 0 2em #181717aa);
 }
 
 .skills-logo-linkedin:hover {
-  filter: drop-shadow(0 0 2em #0077b5aa); /* LinkedIn logo color */
+  filter: drop-shadow(0 0 2em #0077b5aa);
+}
+
+@media (width < 1100px){
+  .about-me{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }
