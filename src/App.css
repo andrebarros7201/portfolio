@@ -1,5 +1,5 @@
 #root {
-  width: clamp(666px, 100%, 1200px);
+  width: clamp(350px, 100%, 1200px);
   height: auto;
   margin: 0 auto;
   padding: 1rem;
@@ -10,4 +10,10 @@
   align-items: center;
   justify-content: flex-start;
   color: #0b1215;
+}
+
+@media (max-width: 600px) {
+  #root {
+    width: 90vw;
+  }
 }
