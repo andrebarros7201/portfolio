@@ -63,3 +63,14 @@
         }
     }
 }
+
+@media(width < 900px){
+    .projects{
+        align-items: center;
+    }
+
+    .project{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
