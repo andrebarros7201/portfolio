@@ -41,3 +41,13 @@
     }
 
 }
+
+@media(width < 900px){
+    .contact{
+        align-items: center;
+    }
+
+    .contact-div{
+        flex-flow: column nowrap;
+    }
+}
