@@ -30,10 +30,13 @@ nav {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 650px) {
   header{
-    flex-flow: column nowrap;
-    padding:0 1rem;
-    position: static;
+    font-size: 0.8rem;
+  }
+  nav{
+    & ul{
+      gap: 1rem;
+    }
   }
 }
