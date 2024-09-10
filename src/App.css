@@ -12,7 +12,7 @@
   color: #0b1215;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
   #root {
     width: 90vw;
   }
